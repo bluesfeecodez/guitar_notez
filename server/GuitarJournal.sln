@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70964E4C-253B-4262-9B89-E286A0939C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarJournal.Api", "src\GuitarJournal.Api\GuitarJournal.Api.csproj", "{471A4697-AAB3-4123-871A-418FA3307CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarJournal.Application", "src\GuitarJournal.Application\GuitarJournal.Application.csproj", "{1DB23514-FF6E-469C-A098-5E28CC7D516A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarJournal.Domain", "src\GuitarJournal.Domain\GuitarJournal.Domain.csproj", "{8A8D311C-2869-4F86-8F63-97057778E2BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarJournal.Infrastructure", "src\GuitarJournal.Infrastructure\GuitarJournal.Infrastructure.csproj", "{FEC6F153-D7B9-4753-9DC8-0315F6ABBEA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{46CA9AE2-CC4E-40E8-A21F-A63DF4FB6647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarJournal.UnitTests", "tests\GuitarJournal.UnitTests\GuitarJournal.UnitTests.csproj", "{67F41CED-16AE-4962-B27F-ECCAFCA610A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarJournal.IntegrationTests", "tests\GuitarJournal.IntegrationTests\GuitarJournal.IntegrationTests.csproj", "{05D6995F-D1CA-414B-BE2B-38A6A858A557}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{471A4697-AAB3-4123-871A-418FA3307CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471A4697-AAB3-4123-871A-418FA3307CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471A4697-AAB3-4123-871A-418FA3307CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471A4697-AAB3-4123-871A-418FA3307CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB23514-FF6E-469C-A098-5E28CC7D516A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB23514-FF6E-469C-A098-5E28CC7D516A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB23514-FF6E-469C-A098-5E28CC7D516A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB23514-FF6E-469C-A098-5E28CC7D516A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A8D311C-2869-4F86-8F63-97057778E2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8D311C-2869-4F86-8F63-97057778E2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8D311C-2869-4F86-8F63-97057778E2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8D311C-2869-4F86-8F63-97057778E2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC6F153-D7B9-4753-9DC8-0315F6ABBEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC6F153-D7B9-4753-9DC8-0315F6ABBEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC6F153-D7B9-4753-9DC8-0315F6ABBEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC6F153-D7B9-4753-9DC8-0315F6ABBEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F41CED-16AE-4962-B27F-ECCAFCA610A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F41CED-16AE-4962-B27F-ECCAFCA610A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F41CED-16AE-4962-B27F-ECCAFCA610A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F41CED-16AE-4962-B27F-ECCAFCA610A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D6995F-D1CA-414B-BE2B-38A6A858A557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D6995F-D1CA-414B-BE2B-38A6A858A557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D6995F-D1CA-414B-BE2B-38A6A858A557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D6995F-D1CA-414B-BE2B-38A6A858A557}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{471A4697-AAB3-4123-871A-418FA3307CB8} = {70964E4C-253B-4262-9B89-E286A0939C58}
+		{1DB23514-FF6E-469C-A098-5E28CC7D516A} = {70964E4C-253B-4262-9B89-E286A0939C58}
+		{8A8D311C-2869-4F86-8F63-97057778E2BD} = {70964E4C-253B-4262-9B89-E286A0939C58}
+		{FEC6F153-D7B9-4753-9DC8-0315F6ABBEA1} = {70964E4C-253B-4262-9B89-E286A0939C58}
+		{67F41CED-16AE-4962-B27F-ECCAFCA610A4} = {46CA9AE2-CC4E-40E8-A21F-A63DF4FB6647}
+		{05D6995F-D1CA-414B-BE2B-38A6A858A557} = {46CA9AE2-CC4E-40E8-A21F-A63DF4FB6647}
+	EndGlobalSection
+EndGlobal

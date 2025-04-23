@@ -1,0 +1,48 @@
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / VS Code / VS for Mac
+.idea/
+.vscode/
+.vs/
+
+## OS-generated files
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+
+## Test results
+TestResults/
+*.TestResults
+
+## Publish
+*.publish/
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## EF Core Migrations (optional - wenn du Migrations im Repo willst, ausklammern)
+Migrations/
+
+## Secrets (falls du User-Secrets verwendest)
+secrets.json
+
+## dotenv (falls du .
